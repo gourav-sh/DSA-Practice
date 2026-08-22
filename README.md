@@ -1,4 +1,3 @@
-DSA Practice
 This repository is a record of my DSA practice and revision.
 
 I already have an understanding of DSA, and I'm using this repository to revise concepts, strengthen my problem-solving, explore different approaches, and document what I practice.
