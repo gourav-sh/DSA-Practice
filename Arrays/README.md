@@ -1,0 +1,1 @@
+Arrays are a collection of elements of the same data type stored in contiguous memory locations. They allow efficient access to elements using an index and are one of the fundamental data structures used in DSA. This section contains various array-based problems and concepts, including searching, finding maximum/minimum elements, sorting, and more.
