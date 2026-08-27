@@ -5,7 +5,7 @@ void reverseArray(vector<int>& arr, int start, int end) {
         end--;
     }
 }
-
+//Shift
 void rotateRight(vector<int>& arr, int k) {
     int n = arr.size();
 
