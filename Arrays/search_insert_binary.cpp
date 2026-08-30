@@ -22,7 +22,7 @@ public:
             }
 
             // Target is greater than middle element
-            // So search in the right half
+            // So search in the right half of array
             else {
                 s = mid + 1;
             }
