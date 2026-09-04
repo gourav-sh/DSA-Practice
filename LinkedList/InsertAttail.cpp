@@ -12,14 +12,7 @@ class Node
     this->next = NULL;
     }
 };
-    
-void insertHead(Node* &Head, int d)
-{
-  Node*temp = new Node(d);
-  temp->next = Head;
-  Head = temp;
-}
-void printLL(Node* &Head)
+    void printLL(Node* &Head)
 {
     Node* temp = Head;
     while(temp!=NULL)
@@ -29,11 +22,18 @@ void printLL(Node* &Head)
     }
     cout<<endl;
 }
+void InsertAtTail(Node* &tail, int d)
+{
+  Node*temp = new Node(d);
+  tail->next = temp;
+  tail = temp;
+}
 int main()
 {
-    Node* Head = new Node(10);
-    insertHead(Head,5);
-    insertHead(Head,12);
-    insertHead(Head,55);
-    printLL(Head);
+Node* node1 = new Node(5);
+ Node* Head = node1;
+ Node* tail = node1;
+ InsertAtTail(tail,10);
+ InsertAtTail(tail,15);
+ printLL(Head);
 }
